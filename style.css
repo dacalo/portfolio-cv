@@ -437,6 +437,7 @@ progress::-moz-progress-bar {
 
 .container {
 	margin: 0 auto;
+	margin-right: auto;
 	max-width: var(--max-width);
 }
 
@@ -520,7 +521,7 @@ progress::-moz-progress-bar {
 }
 
 .contact-card > small {
-	margin-top: 1rem;
+	margin-top: -1rem;
 }
 
 .footer {
@@ -669,6 +670,7 @@ progress::-moz-progress-bar {
 		margin-left: 1rem;
 		align-self: center;
 	}
+
 	.services > .container {
 		display: grid;
 		grid-template-columns: repeat(2, 45%);
